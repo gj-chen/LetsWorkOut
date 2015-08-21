@@ -2,14 +2,11 @@
 //  ViewController.swift
 //  LetsWorkout
 //
-//  Created by Gloria Chen on 8/20/15.
+//  Created by Gloria Chen on 8/21/15.
 //  Copyright (c) 2015 Gloria Chen. All rights reserved.
 //
 
 import UIKit
-import QuartzCore
-import CoreGraphics
-
 
 class ViewController: UIViewController {
 

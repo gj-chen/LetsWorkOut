@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A36C0511B86ADEC00BE48B0"
+               BlueprintIdentifier = "4AC2438F1B87ACF90053FE1F"
                BuildableName = "LetsWorkout.app"
                BlueprintName = "LetsWorkout"
                ReferencedContainer = "container:LetsWorkout.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A36C0661B86ADEC00BE48B0"
+               BlueprintIdentifier = "4AC243A41B87ACF90053FE1F"
                BuildableName = "LetsWorkoutTests.xctest"
                BlueprintName = "LetsWorkoutTests"
                ReferencedContainer = "container:LetsWorkout.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A36C0661B86ADEC00BE48B0"
+               BlueprintIdentifier = "4AC243A41B87ACF90053FE1F"
                BuildableName = "LetsWorkoutTests.xctest"
                BlueprintName = "LetsWorkoutTests"
                ReferencedContainer = "container:LetsWorkout.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A36C0511B86ADEC00BE48B0"
+            BlueprintIdentifier = "4AC2438F1B87ACF90053FE1F"
             BuildableName = "LetsWorkout.app"
             BlueprintName = "LetsWorkout"
             ReferencedContainer = "container:LetsWorkout.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A36C0511B86ADEC00BE48B0"
+            BlueprintIdentifier = "4AC2438F1B87ACF90053FE1F"
             BuildableName = "LetsWorkout.app"
             BlueprintName = "LetsWorkout"
             ReferencedContainer = "container:LetsWorkout.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A36C0511B86ADEC00BE48B0"
+            BlueprintIdentifier = "4AC2438F1B87ACF90053FE1F"
             BuildableName = "LetsWorkout.app"
             BlueprintName = "LetsWorkout"
             ReferencedContainer = "container:LetsWorkout.xcodeproj">

@@ -2,7 +2,7 @@
 //  LetsWorkoutTests.swift
 //  LetsWorkoutTests
 //
-//  Created by Gloria Chen on 8/20/15.
+//  Created by Gloria Chen on 8/21/15.
 //  Copyright (c) 2015 Gloria Chen. All rights reserved.
 //
 

@@ -12,7 +12,6 @@ class WorkoutCell: UITableViewCell {
 
     @IBOutlet weak var count: UILabel!
     @IBOutlet weak var textCell: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
