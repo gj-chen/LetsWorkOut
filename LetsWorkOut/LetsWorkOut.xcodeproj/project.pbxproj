@@ -14,6 +14,7 @@
 		4AC243A01B87ACF90053FE1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC2439E1B87ACF90053FE1F /* LaunchScreen.xib */; };
 		4AC243AC1B87ACF90053FE1F /* LetsWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC243AB1B87ACF90053FE1F /* LetsWorkoutTests.swift */; };
 		4AC243B61B87BA100053FE1F /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC243B51B87BA100053FE1F /* WorkoutCell.swift */; };
+		4AC243B81B87DEFB0053FE1F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC243B71B87DEFB0053FE1F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4AC243AA1B87ACF90053FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC243AB1B87ACF90053FE1F /* LetsWorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsWorkoutTests.swift; sourceTree = "<group>"; };
 		4AC243B51B87BA100053FE1F /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		4AC243B71B87DEFB0053FE1F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4AC243971B87ACF90053FE1F /* ViewController.swift */,
 				4AC243991B87ACF90053FE1F /* Main.storyboard */,
 				4AC243B51B87BA100053FE1F /* WorkoutCell.swift */,
+				4AC243B71B87DEFB0053FE1F /* DetailViewController.swift */,
 				4AC2439C1B87ACF90053FE1F /* Images.xcassets */,
 				4AC2439E1B87ACF90053FE1F /* LaunchScreen.xib */,
 				4AC243931B87ACF90053FE1F /* Supporting Files */,
@@ -218,6 +221,7 @@
 				4AC243B61B87BA100053FE1F /* WorkoutCell.swift in Sources */,
 				4AC243981B87ACF90053FE1F /* ViewController.swift in Sources */,
 				4AC243961B87ACF90053FE1F /* AppDelegate.swift in Sources */,
+				4AC243B81B87DEFB0053FE1F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
