@@ -1,0 +1,4 @@
+use_frameworks! 
+pod ‘ChameleonFramework/Swift’
+pod ‘MZTimerLabel’ 
+pod “youtube-ios-player-helper”, “~>0.1.3” 
