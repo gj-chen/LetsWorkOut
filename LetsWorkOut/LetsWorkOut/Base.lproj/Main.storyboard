@@ -109,11 +109,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqn-fi-el1">
-                                <rect key="frame" x="112" y="237" width="376" height="225"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="225" id="Alq-Zx-aLn"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqn-fi-el1">
+                                <rect key="frame" x="139" y="211" width="372" height="273"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -121,14 +118,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="RE1-uW-NSx" firstAttribute="top" secondItem="sqn-fi-el1" secondAttribute="bottom" constant="138" id="09q-i8-Xo9"/>
                             <constraint firstItem="wFA-rE-d43" firstAttribute="top" secondItem="i1A-ps-nSn" secondAttribute="bottom" constant="60" id="Ebi-jW-Kqz"/>
-                            <constraint firstAttribute="trailing" secondItem="sqn-fi-el1" secondAttribute="trailing" constant="112" id="S2I-QR-rFO"/>
                             <constraint firstItem="wFA-rE-d43" firstAttribute="leading" secondItem="4Bt-dH-yJg" secondAttribute="leading" constant="57" id="Vvy-vJ-bgh"/>
                             <constraint firstItem="RE1-uW-NSx" firstAttribute="top" secondItem="wFA-rE-d43" secondAttribute="bottom" constant="397" id="Wkv-N0-jx5"/>
                             <constraint firstAttribute="trailing" secondItem="wFA-rE-d43" secondAttribute="trailing" constant="300" id="XtZ-rB-HdL"/>
-                            <constraint firstItem="sqn-fi-el1" firstAttribute="leading" secondItem="4Bt-dH-yJg" secondAttribute="leading" constant="112" id="cBh-6l-rFu"/>
-                            <constraint firstItem="sqn-fi-el1" firstAttribute="top" secondItem="wFA-rE-d43" secondAttribute="bottom" constant="34" id="gqx-YP-hac"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Kgo-z9-LwQ"/>
