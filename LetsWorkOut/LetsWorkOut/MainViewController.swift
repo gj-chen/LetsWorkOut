@@ -8,13 +8,15 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
-    
+    let manager = WorkoutDataSource()
+    var workouts = []
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.workouts = manager.getWorkOuts()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +24,23 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.workouts.count
+    }
 
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath)-> UITableViewCell {
+        let workout = self.workouts[indexPath.row] as? Workout
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as? WorkoutCell!
+        cell!.textCell?.text = workout?.title
+        cell!.backgroundColor = workout?.color
+        cell!.countLabel.text = "\(indexPath.row+1)"
+        cell!.selectionStyle = UITableViewCellSelectionStyle.None
+        return cell!
+    }
+    
+    
     /*
     // MARK: - Navigation
 
