@@ -10,13 +10,13 @@ import UIKit
 import Foundation
 
 class Workout {
-    var videoId: String!
+    var videoID: String!
     var title: String!
     var workoutText: String!
     var color: UIColor!
         
-    init(title: String, videoId: String, workoutText: String, color: UIColor){
-        self.videoId = videoId
+    init(title: String, videoID: String, workoutText: String, color: UIColor){
+        self.videoID = videoID
         self.title = title
         self.workoutText = workoutText
         self.color = color
