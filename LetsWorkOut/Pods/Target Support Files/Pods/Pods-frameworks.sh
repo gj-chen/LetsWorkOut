@@ -53,11 +53,4 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods/ChameleonFramework.framework'
-  install_framework 'Pods/MZTimerLabel.framework'
-  install_framework 'Pods/youtube_ios_player_helper.framework'
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods/ChameleonFramework.framework'
-  install_framework 'Pods/MZTimerLabel.framework'
-  install_framework 'Pods/youtube_ios_player_helper.framework'
 fi

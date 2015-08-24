@@ -14,6 +14,8 @@
 		4AC243A01B87ACF90053FE1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC2439E1B87ACF90053FE1F /* LaunchScreen.xib */; };
 		4AC243AC1B87ACF90053FE1F /* LetsWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC243AB1B87ACF90053FE1F /* LetsWorkoutTests.swift */; };
 		4AC243B61B87BA100053FE1F /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC243B51B87BA100053FE1F /* WorkoutCell.swift */; };
+		4AF838C61B8BC45D000C6D52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF838C51B8BC45D000C6D52 /* DetailViewController.swift */; };
+		AF103023666B1B6ECD44BBB1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FE38917B608EC36C91BE60 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146653BECEDC5F1148BFBEDD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4AC243901B87ACF90053FE1F /* LetsWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC243941B87ACF90053FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC243951B87ACF90053FE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		4AC243AA1B87ACF90053FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC243AB1B87ACF90053FE1F /* LetsWorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsWorkoutTests.swift; sourceTree = "<group>"; };
 		4AC243B51B87BA100053FE1F /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		4AF838C51B8BC45D000C6D52 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D1DCDDD88C7D5509BD79F9CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D8FE38917B608EC36C91BE60 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF103023666B1B6ECD44BBB1 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B55A8BC492ED20566B809F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				146653BECEDC5F1148BFBEDD /* Pods.debug.xcconfig */,
+				D1DCDDD88C7D5509BD79F9CF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32D94F2F9EE13064C64B103B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE38917B608EC36C91BE60 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AC243871B87ACF90053FE1F = {
 			isa = PBXGroup;
 			children = (
 				4AC243921B87ACF90053FE1F /* LetsWorkout */,
 				4AC243A81B87ACF90053FE1F /* LetsWorkoutTests */,
 				4AC243911B87ACF90053FE1F /* Products */,
+				22B55A8BC492ED20566B809F /* Pods */,
+				32D94F2F9EE13064C64B103B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +108,7 @@
 				4AC243951B87ACF90053FE1F /* AppDelegate.swift */,
 				4AC243971B87ACF90053FE1F /* ViewController.swift */,
 				4AC243991B87ACF90053FE1F /* Main.storyboard */,
+				4AF838C51B8BC45D000C6D52 /* DetailViewController.swift */,
 				4AC243B51B87BA100053FE1F /* WorkoutCell.swift */,
 				4AC2439C1B87ACF90053FE1F /* Images.xcassets */,
 				4AC2439E1B87ACF90053FE1F /* LaunchScreen.xib */,
@@ -122,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC243AF1B87ACF90053FE1F /* Build configuration list for PBXNativeTarget "LetsWorkout" */;
 			buildPhases = (
+				9F5CAE2FD32C53EA33C85BBB /* Check Pods Manifest.lock */,
 				4AC2438C1B87ACF90053FE1F /* Sources */,
 				4AC2438D1B87ACF90053FE1F /* Frameworks */,
 				4AC2438E1B87ACF90053FE1F /* Resources */,
+				25AADEF2A4E464C9155BF50C /* Embed Pods Frameworks */,
+				C88F444F32EEDF3027181812 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +240,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25AADEF2A4E464C9155BF50C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5CAE2FD32C53EA33C85BBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C88F444F32EEDF3027181812 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AC2438C1B87ACF90053FE1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,6 +296,7 @@
 				4AC243B61B87BA100053FE1F /* WorkoutCell.swift in Sources */,
 				4AC243981B87ACF90053FE1F /* ViewController.swift in Sources */,
 				4AC243961B87ACF90053FE1F /* AppDelegate.swift in Sources */,
+				4AF838C61B8BC45D000C6D52 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,46 +383,9 @@
 			};
 			name = Debug;
 		};
-		4AC243AE1B87ACF90053FE1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4AC243B01B87ACF90053FE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146653BECEDC5F1148BFBEDD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LetsWorkout/Info.plist;
@@ -351,16 +393,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
-		};
-		4AC243B11B87ACF90053FE1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LetsWorkout/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
 		};
 		4AC243B31B87ACF90053FE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -381,21 +413,6 @@
 			};
 			name = Debug;
 		};
-		4AC243B41B87ACF90053FE1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LetsWorkoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsWorkout.app/LetsWorkout";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,26 +420,25 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AC243AD1B87ACF90053FE1F /* Debug */,
-				4AC243AE1B87ACF90053FE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4AC243AF1B87ACF90053FE1F /* Build configuration list for PBXNativeTarget "LetsWorkout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AC243B01B87ACF90053FE1F /* Debug */,
-				4AC243B11B87ACF90053FE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		4AC243B21B87ACF90053FE1F /* Build configuration list for PBXNativeTarget "LetsWorkoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AC243B31B87ACF90053FE1F /* Debug */,
-				4AC243B41B87ACF90053FE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
