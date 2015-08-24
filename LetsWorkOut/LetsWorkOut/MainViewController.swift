@@ -40,15 +40,21 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return cell!
     }
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if(segue.identifier == "detailview"){
+            let cell = sender as? WorkoutCell
+            let indexPath = tableView.indexPathForCell(cell!)
+            let nvc = segue.destinationViewController as? UINavigationController
+            if let tmp = workouts[indexPath!.row] as? Workout{
+                let dvc = nvc?.topViewController as! DetailViewController
+               // dvc.Workout = tmp
+            }
+        }
     }
-    */
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.tableView.contentInset = UIEdgeInsetsMake(0,0,55,0)
+    }
 
 }

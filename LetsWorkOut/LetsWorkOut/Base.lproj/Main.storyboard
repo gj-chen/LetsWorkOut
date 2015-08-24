@@ -42,20 +42,22 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.14999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WtL-Wh-Yl7">
-                                                    <rect key="frame" x="8" y="0.0" width="93" height="69"/>
+                                                <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-h7-tbY">
+                                                    <rect key="frame" x="8" y="0.0" width="67" height="61"/>
                                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leading" constant="271" id="84H-QB-CBV"/>
-                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="centerY" secondItem="LwA-t2-xWS" secondAttribute="centerY" id="8SS-jw-oVp"/>
+                                                <constraint firstAttribute="trailing" secondItem="e9i-h7-tbY" secondAttribute="trailing" constant="492" id="4Md-Ig-sHZ"/>
                                                 <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leading" constant="25" id="9ZN-Cw-m8u"/>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="leading" secondItem="b3I-kD-wiz" secondAttribute="trailing" constant="232" id="9t8-NM-KaM"/>
-                                                <constraint firstAttribute="trailing" secondItem="DaK-aT-FNJ" secondAttribute="trailing" constant="180" id="apS-m5-lNe"/>
+                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leading" constant="271" id="GBp-gV-GTo"/>
+                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" constant="21" id="Ids-dm-dIV"/>
                                                 <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" constant="21" id="c8H-OP-Uuc"/>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="leading" secondItem="b3I-kD-wiz" secondAttribute="trailing" constant="232" id="ltX-2W-uEX"/>
-                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="baseline" secondItem="DaK-aT-FNJ" secondAttribute="baseline" id="tEy-eg-Vgl"/>
+                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="baseline" secondItem="b3I-kD-wiz" secondAttribute="baseline" id="fFJ-w5-0Nk"/>
+                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="centerY" secondItem="LwA-t2-xWS" secondAttribute="centerY" id="fyN-rO-tnQ"/>
+                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" id="gXE-h6-9Ap"/>
+                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="bottom" secondItem="LwA-t2-xWS" secondAttribute="bottomMargin" id="k22-3T-NDk"/>
+                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="top" secondItem="LwA-t2-xWS" secondAttribute="top" id="yNQ-bQ-28T"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -79,7 +81,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.85262101888656616" green="0.42218321561813354" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="tw2-r7-hUR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="224" id="5JP-NG-p1v"/>
                             <constraint firstAttribute="trailing" secondItem="tw2-r7-hUR" secondAttribute="trailing" id="8lh-MJ-gVg"/>
