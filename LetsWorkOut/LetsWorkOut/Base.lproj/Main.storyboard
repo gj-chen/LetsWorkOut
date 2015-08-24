@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -10,61 +9,61 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LetsWorkout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="iXd-Qm-7Gd"/>
+                        <viewControllerLayoutGuide type="bottom" id="67P-vK-tis"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UITableView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tw2-r7-hUR">
-                                <rect key="frame" x="0.0" y="244" width="600" height="600"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7 min workout" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPS-Yr-Lvw">
+                                <rect key="frame" x="62" y="91" width="266" height="112"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tw2-r7-hUR">
+                                <rect key="frame" x="0.0" y="245" width="600" height="433"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="600" id="FHj-eq-Bo6"/>
-                                </constraints>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="hHw-px-nM6">
+                                    <rect key="frame" x="0.0" y="92" width="600" height="329"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgP-HZ-nnw">
+                                            <rect key="frame" x="90" y="212" width="207" height="45"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                            <state key="normal" title="Start Workout">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="70" id="aDX-fN-vCU" customClass="WorkoutCell" customModule="LetsWorkout" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aDX-fN-vCU" id="LwA-t2-xWS">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jumping Jacks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaK-aT-FNJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jumping Jacks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaK-aT-FNJ">
                                                     <rect key="frame" x="271" y="24" width="116" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3I-kD-wiz">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3I-kD-wiz">
                                                     <rect key="frame" x="29" y="24" width="10" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-h7-tbY">
+                                                <view alpha="0.14999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-h7-tbY">
                                                     <rect key="frame" x="8" y="0.0" width="67" height="61"/>
                                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="e9i-h7-tbY" secondAttribute="trailing" constant="492" id="4Md-Ig-sHZ"/>
-                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leading" constant="25" id="9ZN-Cw-m8u"/>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leading" constant="271" id="GBp-gV-GTo"/>
-                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" constant="21" id="Ids-dm-dIV"/>
-                                                <constraint firstItem="b3I-kD-wiz" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" constant="21" id="c8H-OP-Uuc"/>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="baseline" secondItem="b3I-kD-wiz" secondAttribute="baseline" id="fFJ-w5-0Nk"/>
-                                                <constraint firstItem="DaK-aT-FNJ" firstAttribute="centerY" secondItem="LwA-t2-xWS" secondAttribute="centerY" id="fyN-rO-tnQ"/>
-                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="leading" secondItem="LwA-t2-xWS" secondAttribute="leadingMargin" id="gXE-h6-9Ap"/>
-                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="bottom" secondItem="LwA-t2-xWS" secondAttribute="bottomMargin" id="k22-3T-NDk"/>
-                                                <constraint firstItem="e9i-h7-tbY" firstAttribute="top" secondItem="LwA-t2-xWS" secondAttribute="top" id="yNQ-bQ-28T"/>
-                                            </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="9ZN-Cw-m8u"/>
-                                                    <exclude reference="c8H-OP-Uuc"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="count" destination="b3I-kD-wiz" id="NhG-2H-9GN"/>
@@ -74,39 +73,28 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7 min workout" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPS-Yr-Lvw">
-                                <rect key="frame" x="61" y="86" width="266" height="112"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.85262101888656616" green="0.42218321561813354" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="tw2-r7-hUR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="224" id="5JP-NG-p1v"/>
-                            <constraint firstAttribute="trailing" secondItem="tw2-r7-hUR" secondAttribute="trailing" id="8lh-MJ-gVg"/>
-                            <constraint firstItem="tw2-r7-hUR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OHO-Up-rUM"/>
-                            <constraint firstAttribute="bottom" secondItem="tw2-r7-hUR" secondAttribute="bottom" constant="-244" id="Sxb-Rv-2Qh"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="280" y="321"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BFA-jh-VKp">
             <objects>
                 <viewController id="nFg-gR-Agi" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="i1A-ps-nSn"/>
-                        <viewControllerLayoutGuide type="bottom" id="RE1-uW-NSx"/>
+                        <viewControllerLayoutGuide type="top" id="v9D-dO-W1b"/>
+                        <viewControllerLayoutGuide type="bottom" id="TiR-TV-zsK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Bt-dH-yJg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFA-rE-d43">
-                                <rect key="frame" x="57" y="124" width="243" height="79"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFA-rE-d43">
+                                <rect key="frame" x="57" y="124" width="42" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -119,18 +107,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wFA-rE-d43" firstAttribute="top" secondItem="i1A-ps-nSn" secondAttribute="bottom" constant="60" id="Ebi-jW-Kqz"/>
-                            <constraint firstItem="wFA-rE-d43" firstAttribute="leading" secondItem="4Bt-dH-yJg" secondAttribute="leading" constant="57" id="Vvy-vJ-bgh"/>
-                            <constraint firstItem="RE1-uW-NSx" firstAttribute="top" secondItem="wFA-rE-d43" secondAttribute="bottom" constant="397" id="Wkv-N0-jx5"/>
-                            <constraint firstAttribute="trailing" secondItem="wFA-rE-d43" secondAttribute="trailing" constant="300" id="XtZ-rB-HdL"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Kgo-z9-LwQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4O-f8-uvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1799" y="265"/>
+            <point key="canvasLocation" x="1895.625" y="321.12676056338023"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6u6-Tj-fqb">
@@ -148,7 +130,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxO-qq-zdW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="977" y="265"/>
+            <point key="canvasLocation" x="1070.625" y="321.12676056338023"/>
         </scene>
     </scenes>
 </document>
