@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import Foundation
+import youtube_ios_player_helper
+
+
 
 class DetailViewController: UIViewController {
-
+    @IBOutlet weak var detailText: UILabel!
+    @IBOutlet weak var playerView: YTPlayerView!
+    
+    var workout: Workout!
+    
+    let playerVars = ["playsinline":"1"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,7 +32,7 @@ class DetailViewController: UIViewController {
     }
     
 
-
+    
     
     
     

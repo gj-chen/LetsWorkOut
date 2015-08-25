@@ -47,7 +47,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             let nvc = segue.destinationViewController as? UINavigationController
             if let tmp = workouts[indexPath!.row] as? Workout{
                 let dvc = nvc?.topViewController as! DetailViewController
-               // dvc.Workout = tmp
+                dvc.workout = tmp
             }
         }
     }

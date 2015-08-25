@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MZTimerLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>youtube-ios-player-helper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0C54E4DE8A5063B87591707A263EFD1D</key>
+		<key>6A0D78B4F41584A0E0B5835E3CA02FED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A6E40986D2CDCCC5DA05F890D8DAB6E1</key>
+		<key>9F70F42241C3EF9D01DD17AACD1BDE13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBBB25E2DC3D49240B08B2EDEEDB3F16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F43B448FBD9ACCC7C3B97556EB747BB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

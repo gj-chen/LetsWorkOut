@@ -89,7 +89,7 @@
                         <viewControllerLayoutGuide type="top" id="v9D-dO-W1b"/>
                         <viewControllerLayoutGuide type="bottom" id="TiR-TV-zsK"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4Bt-dH-yJg">
+                    <view key="view" contentMode="scaleToFill" id="4Bt-dH-yJg" customClass="YTPlayerView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -100,7 +100,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqn-fi-el1">
-                                <rect key="frame" x="139" y="211" width="372" height="273"/>
+                                <rect key="frame" x="114" y="216" width="372" height="273"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
