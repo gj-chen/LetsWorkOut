@@ -22,13 +22,24 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.playerView.loadWithVideoId(workout.videoID, playerVars: playerVars)
+        self.view.backgroundColor = workout.color
+        self.detailText.text = workout.workoutText
+        self.title = workout.title
+        self.navigationController?.navigationBar.barTintColor = workout.color
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
 
         // Do any additional setup after loading the view.
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func close(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
 
