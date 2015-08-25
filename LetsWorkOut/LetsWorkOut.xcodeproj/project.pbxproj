@@ -18,6 +18,7 @@
 		4AF838C81B8BC6A4000C6D52 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF838C71B8BC6A4000C6D52 /* Workout.swift */; };
 		4AF838CA1B8BC752000C6D52 /* WorkoutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF838C91B8BC752000C6D52 /* WorkoutDataSource.swift */; };
 		4AF838CC1B8BCB5C000C6D52 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF838CB1B8BCB5C000C6D52 /* MainViewController.swift */; };
+		4AF838CE1B8BF481000C6D52 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF838CD1B8BF480000C6D52 /* WorkoutViewController.swift */; };
 		AF103023666B1B6ECD44BBB1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FE38917B608EC36C91BE60 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		4AF838C71B8BC6A4000C6D52 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		4AF838C91B8BC752000C6D52 /* WorkoutDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDataSource.swift; sourceTree = "<group>"; };
 		4AF838CB1B8BCB5C000C6D52 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4AF838CD1B8BF480000C6D52 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		D1DCDDD88C7D5509BD79F9CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D8FE38917B608EC36C91BE60 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				4AC243951B87ACF90053FE1F /* AppDelegate.swift */,
 				4AC243971B87ACF90053FE1F /* ViewController.swift */,
 				4AC243991B87ACF90053FE1F /* Main.storyboard */,
+				4AF838CD1B8BF480000C6D52 /* WorkoutViewController.swift */,
 				4AF838C51B8BC45D000C6D52 /* DetailViewController.swift */,
 				4AC243B51B87BA100053FE1F /* WorkoutCell.swift */,
 				4AF838C71B8BC6A4000C6D52 /* Workout.swift */,
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF838CE1B8BF481000C6D52 /* WorkoutViewController.swift in Sources */,
 				4AF838CC1B8BCB5C000C6D52 /* MainViewController.swift in Sources */,
 				4AF838CA1B8BC752000C6D52 /* WorkoutDataSource.swift in Sources */,
 				4AC243B61B87BA100053FE1F /* WorkoutCell.swift in Sources */,
