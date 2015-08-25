@@ -11,10 +11,12 @@ import MZTimerLabel
 
 class WorkoutViewController: UIViewController, MZTimerLabelDelegate {
 
+    @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var nextUp: UILabel!
     @IBOutlet weak var workoutLabel: UILabel!
-    @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var timerLabel: MZTimerLabel!
+   
+    
     
     let restTime = 11.0
     let workoutTime = 30.0
